@@ -11,7 +11,7 @@ function http_get_contents($url)
         } else {
             return $retval;
         }
-    }s
+    }
 
 $link = 'http://localhost:8080/api/json?tree=jobs[displayName,lastBuild[result]]';
 
