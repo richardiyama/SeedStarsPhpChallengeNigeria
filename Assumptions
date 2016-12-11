@@ -1,0 +1,10 @@
+The following are my assumptions
+
+
+- I used laravel framwork because its makes development faster and easy
+-This framwork also makes it easy to protect application from cross-site request forgery (CSRF) attacks.
+
+- In terms of SQL Injection,Laravel’s Eloquent ORM uses PDO parameter binding to avoid SQL injection security risk.
+- Laravel protects web applications from cross-site scripting which is also a security risk.
+Promblems
+- I had problem with the Console Script.I was geting the following error: Notice: Trying to get property of non-object in C:\Documents\SeedstarsPhpChallenge\Phpscript\JobScript.php on line 29 From the Command Prompt.I will still try to figure out the error and fix it.
